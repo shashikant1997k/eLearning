@@ -1,0 +1,4546 @@
+@charset "utf-8";
+.clear {
+    margin-left: 22%;
+}
+.flot_right{
+	float:right
+}
+.AreaForKeypadAndInputInDevice{
+	position:absolute;
+	right:0%;
+}
+
+
+.middle{
+	width:100%;
+}
+ 
+.hidden{
+	visibility:hidden;
+}	
+
+tr,td{
+	/*border:1px solid #CCC;*/
+}
+.opac{
+	visibility:hidden;
+}
+.bold{
+	font-weight:bold;
+}
+.undrlin{
+	text-decoration:underline;
+}
+.t_c{
+	text-align:center;
+}
+
+.blue_col{
+	color:#00C;
+}
+.green_color{
+	color:#090;
+}
+.Div_Radio{
+	position:relative;
+}
+.Mrgntop{
+	margin-top:1%;
+	margin-left:8%;
+}
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 60px;
+	width:calc((100% - 60px));
+}
+.SolutionRemark{
+	background-color:transparent;
+	z-index:1;
+}
+.solutionContainer{
+	overflow-y:auto;
+}
+.comma1{
+	margin-top:0%;
+}
+.reset,.left,.right{
+	cursor:pointer;
+	width: 100%;
+}
+.done_btn{
+	cursor:pointer;
+	width: 100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+}
+
+.svg1{
+	width:100%;
+}
+
+.howTo_div{
+	display:none;
+}
+.howTo_button:hover{
+	color:white;
+}
+
+.inputDiv{
+	position:relative;
+}
+
+.P_correct
+{
+	color:#00C;
+	font-weight:bold;
+	font-family: arial;
+	display:none;
+	
+}
+
+.howTo_button{
+	border:none;
+	cursor:pointer;
+}
+
+.howTo_div{
+	position:absolute;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howTo{
+	position:relative;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:6%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;
+	padding-right:5px;
+}
+
+
+
+.Step1{
+	margin-left:10%;
+	width:58%;
+	display:inline-block;
+	float:left;
+}
+
+
+.Graph_main_div{
+	width:30%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	top:0%;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:85%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:15%;
+	display:inline-block;
+	position:absolute;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	display:none;
+}
+
+.Step1{
+	position:relative;
+}
+.Done_con{
+	position:absolute;
+	right:2%;
+	bottom:-50%;
+	background-color:#FFF;
+	display:none;
+	border:1px solid;
+	box-shadow:2px 2px 2px #666;
+	z-index:10;
+}
+
+.rst{
+	border:1px solid #DDD;
+	background-color:#DDD;
+	box-shadow:1px 1px 1px #666;
+}
+.Cross_Img1{
+	width:5%;
+	position:absolute;
+	top:0%;
+	right:0%;
+}
+
+
+.Wrng1,.Wrt1,.Wrng2,.Wrt2,.Wrng3,.Wrt3,.Wrng4,.Wrt4{
+	position:absolute;
+	margin-left:-1em;;
+	visibility:hidden;
+}
+
+.Wrng1,.Wrt1,.Wrng2,.Wrt2{
+	top:0em;
+}
+
+.Wrng4,.Wrt4{
+	position:absolute;
+	left:15%;
+	top:5%;
+}
+.section1{
+	white-space:nowrap;
+}
+
+.step_cross_stp{
+	font-size:0.92em;
+}
+
+.buttonDivForDevice{
+	position:absolute;
+	display:none;
+}
+
+.remark{
+	width:auto;
+	position:absolute;
+	top:15%;
+	left:-12%;
+}
+
+<!--**********Common Style Code*******-->
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	display:none;
+}
+.Radio_Table{
+	border-collapse:collapse;
+	font-size:.8em;
+	padding:1%;
+	width:100%;
+}
+
+.td1_2,.td1_3,.td1_4,.td1_5{
+	border-top:1px solid #CCC;
+	border-bottom:1px solid black;
+	background-color:white;
+}
+.td1_2{
+	border-left:1px solid #CCC;
+	background-color:white;
+}
+
+.td1_5{
+	border-right:1px solid black;
+	background-color:white;
+}
+.td1_2,.td1_4{
+	padding-top:2%;
+}
+.header {
+	position:relative;
+}
+.radBtn1,.radBtn2{
+	width:1.1em;
+	height:1.1em;
+}
+
+.radBtn1,.radBtn2,.handCursor{
+	cursor:pointer;
+}
+
+
+.show{
+	text-decoration:underline;
+	text-decoration-color: #000;
+	cursor:pointer;
+	color:#C00;
+	font-weight:bold;
+	white-space:nowrap;
+}
+.show:hover{
+	font-weight:normal;
+}
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:10%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:90%;
+}
+.padd_1{
+	padding-bottom:3%;
+}
+
+.Step1_1,.Step1_2{
+	box-shadow:1px 1px 1px 3px #CCC;
+	background-color:#FFF;
+	width:80%;
+	display:none;
+	position:absolute;
+	top:0%;
+	z-index:5;
+	font-size:0.92em;
+}
+
+.Step1_3{
+	box-shadow:1px 1px 1px 3px #CCC;
+	background-color:#FFF;
+	width:60%;
+	display:none;
+	position:absolute;
+	top:0%;
+	z-index:5;
+	font-size:0.92em;
+}
+
+
+.Step1_1_Cross,.Step1_2_Cross,.Step1_3_Cross{
+	width:4%;
+	float:right;
+	cursor:pointer;
+	margin-bottom:-4%;
+}
+.tb2 {
+    width: 95%;
+}
+.tb2_td1{
+	width:6%;
+	vertical-align:top;
+}
+.tb2_td2{
+	width:94%;
+}
+
+.tb3{
+	width:25%;
+	border-collapse:collapse;
+	border-color:#66FFCC;
+	margin-left:30%;
+}
+.tb3_td1,.tb3_td2{
+	width:50%;
+	padding:1%;
+	text-align:center;
+	border:1px solid #0066FF;
+}
+.tb3_colr1{
+	background-color:#FFFFC1;
+	padding:1%;
+}
+.tb3_colr2{
+	background-color:#FFFFF4;
+}
+
+
+
+.graph_anim{
+   	animation: graph_anim 2s forwards;
+}
+
+@keyframes graph_anim{
+  
+  100%{
+	  left:0px; 
+	 }
+
+}
+
+
+.extraclass{
+	left:0px !important;
+	}
+.pre{
+	display:inline-block;
+	}
+.disable_div{
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:100%;
+	z-index:100;
+	}
+.inputAndDoneSpace {
+    float: left;
+    width: 100%;
+    margin-left: 0;
+    background-color: wheat;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em 0.1em black;
+	margin-bottom:0.2em;
+}
+.Div_Radio {
+    position: relative;
+    width: 100%;
+    margin-left: 3%;
+}
+
+.green 
+{
+color:green;	
+}
+.red1 
+{
+color:red;	
+}
+
+
+.prompt_New {
+    width: auto;
+    margin-left: -6em;
+    top: 3em;
+}
+
+.tb1 td {
+    padding-top: 0.6em;
+}
+
+.common_region
+{
+    color: rgb(220, 20, 60);
+    font-weight: bold;
+    background-color: rgb(220, 20, 60);	
+}
+
+.tb3_new td {
+    border: 0.1em solid;
+    padding: 0.2em;
+}
+.tb3_new {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.radio_area
+{
+width:40%;	
+}
+
+@media (min-width: 450px) and (max-width: 530px)
+{
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 20px;
+	width:calc((100% - 20px));
+}
+
+.howTo_button{
+	padding:2px;
+	font-size:7px;
+}
+.howTo_button:hover{
+	color:red;
+}
+
+
+.howTo{
+	right:31%;
+
+}
+
+.howTo_list{
+	font-size:9px;
+}
+
+.Step1{
+	margin-left:0%;
+	width:62%;
+}
+
+.Graph_main_div{
+	width:36%;
+}
+
+.GraphSvg_div{
+	width:90%;
+}
+.button_div{
+	bottom:12px;
+	left:-6px;
+}
+
+.Btn_td1{
+	padding-top:2px;
+}
+
+.reset,.left,.right{
+    padding: 1px;
+    border-radius: 3px;
+	font-size:7px;
+	height:16px;
+}
+.done_btn{
+    padding: 1px;
+	
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:9px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:21px;
+}
+
+.Mrgntop{
+	margin-top:0.5%;
+	margin-left:2%;
+}
+
+.Wrng4,.Wrt4{
+	position:absolute;
+	left:3%;
+	top:15%;
+	font-size:12px;
+}
+
+
+.ClickToAnsDiv{
+	margin-top:2%;
+	margin-right:2%;
+}
+.header{
+	min-height:64px;
+}
+
+.remark{
+	top:4%;
+	left:-15%;
+}
+
+.Done_con{
+	bottom:-2%;
+}
+.radBtn1,.radBtn2{
+	width:.76em;
+	height:.76em;
+}
+
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:13%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:87%;
+}
+.padd_1{
+	padding-bottom:3%;
+}
+
+.Step1_1,.Step1_2,.Step1_3{
+	width:88%;
+	left:6%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:9px;
+}
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+
+}
+
+
+@media (min-width: 531px) and (max-width: 610px)
+{
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 30px;
+	width:calc((100% - 30px));
+}
+
+.howTo_button{
+	padding:2px;
+	font-size:7px;
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	
+	top:16%;
+}
+
+.howTo{
+	right:31%;
+
+}
+
+.howTo_list{
+	font-size:9px;
+}
+
+.Step1{
+	margin-left:2%;
+	width:58%;
+}
+
+.Graph_main_div{
+	width:36%;
+}
+
+.GraphSvg_div{
+	width:92%;
+}
+.button_div{
+	bottom:12px;
+	left:-6px;
+}
+
+.Btn_td1{
+	padding-top:2px;
+}
+
+.reset,.left,.right{
+    padding: 2px;
+    border-radius: 2px;
+	font-size:8px;
+	height:16px;
+}
+.done_btn{
+    padding: 2px;
+	
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:9px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:20px;
+}
+
+
+
+.Mrgntop{
+	margin-top:0%;
+	margin-left:2%;
+}
+
+.Wrng4,.Wrt4{
+	position:absolute;
+	left:3%;
+	top:15%;
+}
+
+
+.ClickToAnsDiv{
+	margin-top:2%;
+}
+
+.header{
+	
+}
+
+.remark{
+	top:4%;
+	left:-15%;
+}
+
+.Done_con{
+	bottom:-2%;
+}
+.radBtn1,.radBtn2{
+	width:.8em;
+	height:.8em;
+}
+
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:11%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:89%;
+}
+.padd_1{
+	padding-bottom:3%;
+}
+
+.Step1_1,.Step1_2,.Step1_3{
+	width:88%;
+	left:6%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:9px;
+}
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+	
+}
+@media (min-width: 611px) and (max-width: 690px)
+{
+	
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 40px;
+	width:calc((100% - 40px));
+}
+
+.howTo_button{
+	padding:2px;
+	font-size:8px;
+
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	
+	top:6%;
+}
+
+.howTo{
+	right:31%;
+
+}
+.howTo_list{
+	font-size:10px;
+}
+.Step1 {
+    margin-left: 0%;
+    width: 58%;
+    margin-top: 6%;
+}
+
+
+.Graph_main_div{
+	width:38%;
+}
+
+.GraphSvg_div{
+	width:92%;
+	
+}
+.button_div{
+	bottom:12px;
+	left:-6px;
+}
+
+.Btn_td1{
+	padding-top:3px;
+}
+
+.reset,.left,.right{
+    padding: 2px;
+    border-radius: 2px;
+	font-size:8px;
+}
+.done_btn{
+    padding: 3px;
+	
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:10px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:20px;
+}
+
+
+
+.Mrgntop{
+	margin-top:1%;
+	margin-left:2%;
+}
+
+.Wrng4,.Wrt4{
+	position:absolute;
+	left:3%;
+	top:15%;
+}
+
+
+.ClickToAnsDiv{
+	margin-top:2%;
+}
+
+.header{
+	
+}
+
+.remark {
+    top: 47%;
+    left: -14%;
+}
+
+
+.Done_con{
+	bottom:-2%;
+}
+.radBtn1,.radBtn2{
+	width:1em;
+	height:1em;
+}
+
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:12%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:88%;
+}
+.padd_1{
+	padding-bottom:3%;
+}
+
+.Step1_1, .Step1_2 {
+    width: 95%;
+    left: 0%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:10px;
+}
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+	
+}
+@media (min-width: 691px) and (max-width: 770px)
+{
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 50px;
+	width:calc((100% - 50px));
+}
+
+.howTo_button{
+	padding:3px;
+	height:18px;
+	font-size:10px;
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	
+	top:13%;
+}
+
+.howTo{
+	right:31%;
+}
+
+
+.howTo_list{
+	font-size:12px;
+}
+
+.Step1 {
+    margin-left: 0%;
+    width: 62%;
+    margin-top: 5%;
+}
+
+
+.Graph_main_div{
+	width:36%;
+}
+
+.GraphSvg_div{
+	width:92%;
+	
+}
+.button_div{
+	bottom:12px;
+	left:-6px;
+}
+
+.Btn_td1{
+	padding-top:3px;
+}
+
+.reset,.left,.right{
+    padding: 3px;
+    border-radius: 2px;
+	font-size:10px;
+}
+.done_btn{
+    padding: 3px;
+	
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:11px;
+}
+.txt{
+	font-size:30px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:20px;
+}
+
+
+.container-fluid{
+	
+}
+.header {
+   
+}
+.Mrgntop{
+	margin-top:1%;
+	margin-left:2%;
+}
+
+
+.Wrng4,.Wrt4{
+	position:absolute;
+	left:3%;
+	top:15%;
+}
+
+
+
+.ClickToAnsDiv{
+	margin-top:2%;
+}
+
+.remark {
+    top: 20%;
+    left: -18%;
+}
+
+.Done_con{
+	bottom:-2%;
+}
+.radBtn1,.radBtn2{
+	width:1em;
+	height:1em;
+}
+
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:14%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:86%;
+}
+.padd_1{
+	padding-bottom:3%;
+}
+
+.Step1_1, .Step1_2 {
+    width: 104%;
+    left: -5%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:13px;
+}
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+}
+@media (min-width: 771px) and (max-width: 850px)
+{
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 40px;
+	width:calc((100% - 40px));
+}
+
+.howTo_button{
+	padding:4px;
+	height:20px;
+	font-size:11px;
+}
+
+.howTo_div{
+	top:14%;
+}
+
+.howTo{
+	right:31%;
+}
+
+
+.howTo_list{
+	font-size:14px;
+}
+
+.Step1 {
+    margin-left: 0%;
+    width: 60%;
+    margin-top: 3%;
+}
+
+
+.Graph_main_div{
+	width:37%;
+}
+
+.GraphSvg_div{
+	width:92%;
+	
+}
+.button_div{
+	bottom:16px;
+	left:-10px;
+}
+
+.Btn_td1{
+	padding-top:3px;
+}
+
+.reset,.left,.right{
+    padding: 3px;
+    border-radius: 5px;
+	font-size:10px;
+	height:22px;
+}
+.done_btn{
+    padding: 3px;
+    border-radius: 5px;
+	height:22px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:12px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:18px;
+}
+
+
+
+.Mrgntop{
+	margin-top:1%;
+	margin-left:2%;
+}
+.header{
+	
+}
+.Wrng4,.Wrt4{
+	position:absolute;
+	left:2%;
+	top:15%;
+}
+
+.ClickToAnsDiv{
+	margin-top:2%;
+}
+
+.header{
+
+}
+
+.remark {
+    top: 47%;
+    left: -19%;
+}
+
+.Done_con{
+	bottom:-2%;
+}
+.radBtn1,.radBtn2{
+	width:1em;
+	height:1em;
+}
+.td1_2, .td1_4 {
+    padding-top: 1%;
+}
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:14%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:86%;
+}
+.padd_1{
+	padding-bottom:3%;
+}
+
+.Step1_1, .Step1_2 {
+    width: 106%;
+    left: -6%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:15px;
+}
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+}
+@media (min-width: 851px) and (max-width: 930px)
+{
+	
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 50px;
+	width:calc((100% - 50px));
+}
+
+.howTo_button{
+	padding:4px;
+	height:22px;
+	font-size:12px;
+
+}
+
+.howTo_div{
+	top:14%;
+}
+
+.howTo{
+	right:31%;
+}
+
+.howTo_list{
+	font-size:15px;
+}
+
+.Step1 {
+    margin-left: 0%;
+    width: 58%;
+    margin-top: 5%;
+}
+
+
+.Graph_main_div{
+	width:38%;
+}
+
+.GraphSvg_div{
+	width:92%;
+	
+}
+.button_div{
+	bottom:25px;
+	left:-12px;
+}
+
+.Btn_td1{
+	padding-top:3px;
+}
+
+.reset,.left,.right{
+    padding: 4px;
+    border-radius: 5px;
+	font-size:12px;
+	height:26px;
+}
+.done_btn{
+    padding: 4px;
+    border-radius: 5px;
+	height:26px;
+	font-size:12px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:13px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:20px;
+}
+
+
+
+.Mrgntop{
+	margin-top:12px;
+	margin-left:4%;
+}
+
+.Wrng4,.Wrt4{
+	position:absolute;
+	left:3%;
+	top:15%;
+}
+
+
+
+.ClickToAnsDiv{
+	margin-top:2%;
+}
+
+.header{
+	min-height:110px;
+}
+
+.remark{
+	top:15%;
+	left:-14%;
+}
+
+.Done_con{
+	bottom:-25%;
+}
+.radBtn1,.radBtn2{
+	width:1.1em;
+	height:1.1em;
+}
+
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:14%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:86%;
+}
+.padd_1{
+	padding-bottom:3%;
+}
+
+.Step1_1, .Step1_2 {
+    width: 108%;
+    left: -7%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:16px;
+}
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+	
+}
+@media (min-width: 931px) and (max-width: 1010px)
+{
+	
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 30px;
+	width:calc((100% - 30px));
+}
+
+.howTo_button{
+	padding:4px;
+	height:22px;
+	font-size:13px;
+
+}
+
+.howTo_div{
+	top:12%;
+}
+
+.howTo{
+	right:31%;
+}
+
+.howTo_list{
+	font-size:16px;
+}
+.Step1 {
+    margin-left: 0%;
+    width: 64%;
+    margin-top: 7%;
+}
+
+.remark {
+    width: auto;
+    position: absolute;
+    top: 43%;
+    left: -14%;
+}
+.Graph_main_div{
+	width:34%;
+}
+
+.GraphSvg_div{
+	width:88%;
+	
+}
+.button_div{
+	bottom:20px;
+	left:-5px;
+}
+
+.Btn_td1{
+	padding-top:3px;
+}
+
+.reset,.left,.right{
+    padding: 4px;
+    border-radius: 5px;
+	font-size:12px;
+	height:26px;
+}
+.done_btn{
+    padding: 4px;
+    border-radius: 5px;
+	height:26px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:13px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:20px;
+}
+
+
+
+.Mrgntop{
+	margin-top:12px;
+	margin-left:4%;
+}
+
+
+.Wrng4,.Wrt4{
+	position:absolute;
+	left:8%;
+	top:15%;
+	font-size:30px;
+}
+
+
+
+.ClickToAnsDiv{
+	margin-top:2%;
+}
+
+.header{
+	min-height:115px;
+}
+
+.radBtn1,.radBtn2{
+	width:1.1em;
+	height:1.1em;
+}
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:11%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:89%;
+}
+.padd_1{
+	padding-bottom:3%;
+}
+
+.Step1_1, .Step1_2 {
+    width: 89%;
+    left: 0%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:16px;
+}
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+
+	
+}
+@media (min-width: 1011px) and (max-width: 1100px)
+{
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 50px;
+	width:calc((100% - 50px));
+}
+.Mrgntop{
+	margin-top:8px;
+	margin-left:2%;
+}
+
+.Wrng4,.Wrt4{
+	position:absolute;
+	left:8%;
+	top:15%;
+}
+.howTo_button{
+	padding:4px;
+	height:25px;
+	font-size:13px;
+}
+
+.howTo_div{
+	top:7%;
+}
+
+.howTo{
+	right:31%;
+}
+
+.howTo_list{
+	font-size:16px;
+}
+
+.Step1 {
+    margin-left: 0%;
+    width: 58%;
+    margin-top: 8%;
+}
+
+
+.Graph_main_div{
+	width:38%;
+}
+
+.GraphSvg_div{
+	width:88%;
+	
+}
+.button_div{
+	bottom:25px;
+	left:10px;
+}
+
+.Btn_td1{
+	padding-top:5px;
+}
+
+.reset,.left,.right{
+    padding: 6px;
+    border-radius: 5px;
+	font-size:13px;
+	height:30px;
+}
+.done_btn{
+    padding: 6px;
+    border-radius: 5px;
+	height:30px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:13px;
+}
+.txt{
+	font-size:26px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:19px;
+}
+
+.ClickToAnsDiv{
+	margin-top:2%;
+}
+
+.header{
+	min-height:130px;
+}
+
+.remark{
+	top:15%;
+	left:-10%;
+}
+
+.radBtn1,.radBtn2{
+	width:1.2em;
+	height:1.2em;
+}
+
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:14%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:86%;
+}
+.padd_1{
+	padding-bottom:3%;
+}
+
+.Step1_1, .Step1_2 {
+    width: 106%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:19px;
+}
+
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+
+
+}
+@media (min-width: 1101px) and (max-width: 1285px)
+{
+		
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 40px;
+	width:calc((100% - 40px));
+}
+.Mrgntop{
+	margin-top:12px;
+	margin-left:5%;
+}
+
+.howTo_button{
+	padding:4px;
+	height:22px;
+	font-size:13px;
+
+}
+
+.howTo_div{
+	top:6%;
+}
+
+.howTo{
+	right:35%;
+}
+
+.howTo_list{
+	font-size:17px;
+}
+
+
+.Step1 {
+    margin-left: 0%;
+    width: 63%;
+    margin-top: 1%;
+}
+
+
+.Graph_main_div {
+    width: 35%;
+}
+
+.GraphSvg_div{
+	width:90%;
+	
+}
+.button_div{
+	bottom:25px;
+	left:10px;
+}
+.Btn_td1{
+	padding-top:5px;
+}
+
+.reset,.left,.right{
+    padding: 6px;
+    border-radius: 5px;
+	font-size:13px;
+	height:35px;
+}
+.done_btn{
+    padding: 6px;
+    border-radius: 5px;
+	height:35px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:15px;
+}
+.txt{
+	font-size:25px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:18px;
+}
+
+
+.header{
+	min-height:160px;
+}
+
+.radBtn1,.radBtn2{
+	width:1.3em;
+	height:1.3em;
+}
+
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:11%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:86%;
+}
+.padd_1{
+	padding-bottom:3%;
+}
+
+.Step1_1 {
+    width: 102%;
+}
+.Step1_2 {
+    width: 105%;
+    margin-left: -1%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:19px;
+}
+
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+.radio_area
+{
+width:50%;	
+}
+	.tb1 td {
+    padding-top: 0.3em;
+}
+}
+@media (min-width: 1286px) and (max-width: 1400px)
+{
+	
+.incorrect, .correct,.P_correct {
+    font-size: 22px;
+}
+	
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 40px;
+	width:calc((100% - 40px));
+}
+
+.howTo_button{
+	padding:4px;
+}
+
+.howTo_div{
+	top:10%;
+}
+
+.howTo{
+	right:40%;
+
+}
+
+.howTo_list{
+	font-size:17px;
+}
+
+.Step1 {
+    margin-left: 5%;
+    width: 60%;
+    margin-top: 1%;
+}
+
+
+.Graph_main_div {
+    width: 28%;
+}
+
+.GraphSvg_div{
+	width:84%;
+	
+}
+.button_div{
+	bottom:25px;
+	left:15px;
+}
+
+.Btn_td1{
+	padding-top:5px;
+}
+
+.reset,.left,.right{
+    padding: 6px;
+    border-radius: 5px;
+}
+.done_btn{
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:15px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:20px;
+}
+
+.header {
+    min-height: 140px;
+}
+
+
+.Radio_Table{
+	border-collapse:collapse;
+	font-size:.8em;
+	padding:1%;
+	width:100%;
+}
+
+
+.td1_2,.td1_4{
+	padding-top:1.5%;
+}
+
+.radBtn1,.radBtn2{
+	width:1.1em;
+	height:1.1em;
+}
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:10%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:90%;
+}
+.padd_1{
+	padding-bottom:3%;
+}
+
+.Step1_1, .Step1_2 {
+    width: 86%;
+}
+
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+
+
+	
+}
+@media (min-width: 1401px) and (max-width: 1550px)
+{
+	
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 50px;
+	width:calc((100% - 50px));
+}
+
+.howTo_button{
+	padding:4px;
+	height:26px;
+	font-size:14px;
+}
+
+.howTo_div{
+	top:8%;
+}
+
+.howTo{
+	right:23%;
+}
+
+.howTo_list{
+	font-size:20px;
+}
+
+.Step1 {
+    margin-left: 6%;
+    width: 56%;
+    margin-top: 1%;
+}
+
+
+.Graph_main_div{
+	width:33%;
+}
+
+.GraphSvg_div {
+    width: 79%;
+}
+.button_div{
+	bottom:30px;
+	left:20px;
+	width:12%;
+}
+
+.Btn_td1{
+	padding-top:5px;
+}
+
+.reset,.left,.right{
+    padding: 5px;
+    border-radius: 5px;
+	height:30px;
+	font-size:14px;
+}
+.done_btn{
+    padding: 5px;
+    border-radius: 5px;
+	height:30px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:17px;
+}
+.txt{
+	font-size:26px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:20px;
+}
+
+.header {
+    
+}
+
+.remark {
+    left: -3%;
+}
+
+.radBtn1,.radBtn2{
+	width:1.3em;
+	height:1.3em;
+}
+
+
+.tb1{
+	width:100%;
+}
+.tb1_td1 {
+    width: 12%;
+    vertical-align: top;
+}
+.tb1_td2{
+	width:90%;
+}
+.padd_1{
+	padding-bottom:3%;
+}
+
+.Step1_1, .Step1_2 {
+    width: 101%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:22px;
+}
+
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+
+
+}
+@media (min-width: 1551px) and (max-width: 1700px)
+{
+	
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 60px;
+	width:calc((100% - 60px));
+}
+
+.howTo_button{
+	padding:5px;
+	font-size:17px;
+	height:30px;
+}
+
+.howTo_div{
+	top:7%;
+}
+
+.howTo{
+	right:23%;
+}
+
+.howTo_list{
+	font-size:20px;
+}
+.Step1 {
+    margin-left: 5%;
+    width: 51%;
+    margin-top: 2%;
+}
+
+
+.Graph_main_div{
+	width:40%;
+}
+
+.GraphSvg_div{
+	width:85%;
+	
+}
+.button_div{
+	bottom:40px;
+	left:25px;
+	width:12%;
+}
+
+.Btn_td1{
+	padding-top:5px;
+}
+
+.reset,.left,.right{
+    padding: 6px;
+    border-radius: 5px;
+	font-size:17px;
+	height:38px;
+}
+.done_btn{
+    padding: 6px;
+    border-radius: 5px;
+	font-size:17px;
+	height:38px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:19px;
+}
+.txt{
+	font-size:26px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:20px;
+}
+
+.header {
+    
+}
+
+.remark {
+    /* top: 50%; */
+    left: 0%;
+}
+
+.radBtn1,.radBtn2{
+	width:1.3em;
+	height:1.3em;
+}
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:12%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:90%;
+}
+.padd_1{
+	padding-bottom:3%;
+}
+
+.Step1_1, .Step1_2 {
+    width: 93%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:22px;
+}
+
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+
+	
+}	
+@media (min-width: 1701px) and (max-width: 1850px)
+{
+	
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 60px;
+	width:calc((100% - 60px));
+}
+
+.howTo_button{
+	padding:5px;
+	font-size:15px;
+	height:30px;
+}
+
+.howTo_div{
+	top:7%;
+}
+
+.howTo{
+	right:23%;
+}
+
+.howTo_list{
+	font-size:22px;
+}
+
+
+.Step1 {
+    margin-left: 6%;
+    width: 50%;
+    margin-top: 1%;
+}
+
+
+.Graph_main_div{
+	width:38%;
+}
+
+.GraphSvg_div{
+	width:85%;
+	
+}
+.button_div{
+	bottom:35px;
+	left:25px;
+	width:12%;
+}
+
+.Btn_td1{
+	padding-top:5px;
+}
+
+.reset,.left,.right{
+    padding: 4px;
+    border-radius: 5px;
+	font-size:15px;
+	height:35px;
+}
+.done_btn{
+    padding: 4px;
+    border-radius: 5px;
+	font-size:15px;
+	height:35px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:20px;
+}
+.txt{
+	font-size:26px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:18px;
+}
+
+.Mrgntop{
+	margin-top:12px;
+	margin-left:3%;
+}
+
+.header {
+    
+}
+
+.remark {
+    /* top: 51%; */
+    left: -2%;
+}
+
+.radBtn1,.radBtn2{
+	width:1.3em;
+	height:1.3em;
+}
+
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:12%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:90%;
+}
+.padd_1{
+	padding-bottom:3%;
+}
+.td1_2, .td1_4 {
+    padding-top: 1%;
+}
+
+.Step1_1,.Step1_2,.Step1_3{
+	width:85%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:22px;
+}
+
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+	.prompt_New {
+    margin-left: -4em;
+}
+}
+@media (min-width: 1851px) and (max-width: 2000px)
+{
+	
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 60px;
+	width:calc((100% - 60px));
+}
+
+.howTo_button{
+	padding:5px;
+	font-size:16px;
+	height:32px;
+}
+
+.howTo_div{
+	top:7%;
+}
+
+.howTo{
+	right:23%;
+}
+
+.howTo_list{
+	font-size:24px;
+}
+
+.Step1 {
+    margin-left: 9%;
+    width: 50%;
+    margin-top: 2%;
+}
+
+
+.Graph_main_div{
+	width:38%;
+}
+
+.GraphSvg_div{
+	width:85%;
+	
+}
+.button_div{
+	bottom:45px;
+	left:35px;
+	width:12%;
+}
+
+.Btn_td1{
+	padding-top:5px;
+}
+
+.reset,.left,.right{
+    padding: 5px;
+    border-radius: 5px;
+	height:38px;
+	font-size:16px;
+}
+.done_btn{
+    padding: 5px;
+    border-radius: 5px;
+	height:38px;
+	font-size:16px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:20px;
+}
+.txt{
+	font-size:26px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:15px;
+}
+
+
+
+.Mrgntop{
+	margin-top:12px;
+	margin-left:3%;
+}
+
+
+.header {
+   min-height:170px;
+}
+
+.remark {
+    /* top: 50%; */
+    left: 0%;
+}
+
+.radBtn1,.radBtn2{
+	width:1.4em;
+	height:1.4em;
+}
+
+
+.tb1{
+	width:100%;
+}
+.tb1_td1 {
+    width: 13%;
+    vertical-align: top;
+}
+.tb1_td2{
+	width:90%;
+}
+.padd_1{
+	padding-bottom:3%;
+}
+.td1_2, .td1_4 {
+    padding-top: 1%;
+}
+.tb2_td1 {
+    width: 5%;
+}
+.tb2_td2 {
+    width: 95%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	width:85%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:22px;
+}
+.Step1_1_Cross,.Step1_2_Cross,.Step1_3_Cross {
+    width: 3%;
+}
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+	
+
+}
+@media (min-width: 2001px)
+{
+			
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 60px;
+	width:calc((100% - 60px));
+}
+
+.howTo_button{
+	padding:8px;
+	font-size:18px;
+	height:40px;
+
+}
+
+.howTo_div{
+	top:7%;
+}
+
+.howTo{
+	right:23%;
+}
+
+.howTo_list{
+	font-size:26px;
+}
+.Step1 {
+    margin-left: 10%;
+    width: 50%;
+    margin-top: 2%;
+}
+
+
+.Graph_main_div{
+	width:38%;
+}
+
+.GraphSvg_div{
+	width:85%;
+	
+}
+.button_div{
+	bottom:48px;
+	left:50px;
+	width:12%;
+}
+
+.Btn_td1{
+	padding-top:5px;
+}
+
+.reset,.left,.right{
+    padding: 4px;
+    border-radius: 5px;
+	font-size:18px;
+	height:42px;
+}
+.done_btn{
+    padding: 4px;
+    border-radius: 5px;
+	height:42px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:22px;
+}
+.txt{
+	font-size:24px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:18px;
+}
+
+.Mrgntop{
+	margin-top:12px;
+	margin-left:3%;
+}
+
+
+.header {
+    
+}
+
+.remark {
+    /* top: 43%; */
+    left: 0%;
+}
+
+.radBtn1,.radBtn2{
+	width:1.5em;
+	height:1.5em;
+}
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:10%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:90%;
+}
+.padd_1{
+	padding-bottom:3%;
+}
+.td1_2, .td1_4 {
+    padding-top: 1%;
+}
+.tb2_td1 {
+    width: 5%;
+}
+.tb2_td2 {
+    width: 95%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	width:85%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:26px;
+}
+.Step1_1_Cross, .Step1_2_Cross {
+    width: 3%;
+}
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+.prompt_New {
+    margin-left: -4em;
+}
+
+}
+
+
+
+
+ 			/************<-- Portrait-->*************/
+ 
+@media (min-width: 320px) and (max-width: 370px) and (orientation:portrait)
+{
+	
+
+.clear {
+	margin-left: 5%;
+}
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 2px;
+	width:calc((100% - 2px));
+}
+
+.Wrng4,.Wrt4{
+	position:absolute;
+	left:0%;
+	top:15%;
+}
+.howTo_button{
+	padding:2px;
+	font-size:9px;
+	height:13px;
+}
+
+
+
+.howTo{
+	right:7%;
+}
+
+.howTo_list{
+	font-size:9px;
+}
+
+.Step1{
+	margin-left:0%;
+	margin-top:4%;
+	width:62%;
+}
+
+
+.Graph_main_div{
+	width:37%;
+	margin-top:4%;
+}
+
+.GraphSvg_div{
+	width:100%;
+	
+}
+.button_div{
+	width:20%;
+	bottom:-42px;
+	left:10px;
+}
+.Btn_td1{
+	padding-top:2px;
+}
+
+.buttonDivForDevice{
+	bottom:-18%;
+	left:7%;
+}
+
+.BtnDevice_td1{
+	width:33%;
+}
+
+.reset,.left,.right{
+    padding: 1px;
+    border-radius: 3px;
+	font-size:9px;
+	height:16px;
+}
+.done_btn{
+    padding: 1px;
+    border-radius: 3px;
+	height:16px;
+	
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:12px;
+}
+.txt{
+	font-size:32px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:22px;
+}
+
+.header{
+	min-height:100px;
+	position:relative;
+}
+
+.remark{
+	top:-10%;
+	left:-42%;
+}
+
+.Mrgntop{
+	margin-top:1%;
+	margin-left:5%;
+	white-space:nowrap;
+}
+
+.Done_con{
+	bottom:-2%;
+}
+.radBtn1,.radBtn2{
+	width:.75em;
+	height:.75em;
+}
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:21%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:79%;
+}
+.padd_1{
+	padding-bottom:4%;
+}
+
+.Step1_1,.Step1_2,.Step1_3{
+	width:88%;
+	left:6%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:10px;
+}
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+}
+
+
+@media (min-width: 371px) and (max-width: 420px) and (orientation:portrait)
+{ 
+
+.clear {
+	margin-left: 5%;
+}
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 3px;
+	width:calc((100% - 3px));
+}
+
+.Wrng4,.Wrt4{
+	position:absolute;
+	left:0%;
+	top:15%;
+}
+.howTo_button{
+	padding:2px;
+	font-size:10px;
+	height:16px;
+}
+
+
+
+.howTo{
+	right:8%;
+}
+
+.howTo_list{
+	font-size:10px;
+}
+
+.Step1{
+	margin-left:0%;
+	margin-top:4%;
+	width:62%;
+}
+
+
+.Graph_main_div{
+	width:37%;
+	margin-top:4%;
+}
+
+.GraphSvg_div{
+	width:100%;
+	
+}
+.button_div{
+	width:20%;
+	bottom:-42px;
+	left:10px;
+}
+.Btn_td1{
+	padding-top:2px;
+}
+
+.buttonDivForDevice{
+	bottom:-18%;
+	left:7%;
+}
+
+.BtnDevice_td1{
+	width:33%;
+}
+.reset,.left,.right{
+    padding: 2px;
+    border-radius: 4px;
+	font-size:9px;
+	height:18px;
+}
+.done_btn{
+    padding: 1px;
+    border-radius: 4px;
+	height:18px;
+	
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:14px;
+}
+.txt{
+	font-size:32px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:22px;
+}
+
+.header{
+	position:relative;
+	min-height:100px;
+}
+
+.remark{
+	top:-10%;
+	left:-42%;
+}
+
+.Mrgntop{
+	margin-top:1%;
+	margin-left:5%;
+	white-space:nowrap;
+}
+
+.Done_con{
+	bottom:-2%;
+}
+.radBtn1,.radBtn2{
+	width:.75em;
+	height:.75em;
+}
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:21%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:79%;
+}
+.padd_1{
+	padding-bottom:4%;
+}
+
+.Step1_1,.Step1_2,.Step1_3{
+	width:100%;
+	left:0%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:12px;
+}
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+
+}
+
+
+@media (min-width: 421px) and (max-width: 470px) and (orientation:portrait)
+{
+
+.clear {
+	margin-left: 5%;
+}
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 3px;
+	width:calc((100% - 3px));
+}
+
+.Wrng4,.Wrt4{
+	position:absolute;
+	left:0%;
+	top:15%;
+}
+.howTo_button{
+	padding:2px;
+	font-size:12px;
+	height:18px;
+}
+
+.howTo{
+	right:7%;
+}
+
+.howTo_list{
+	font-size:11px;
+}
+
+.Step1 {
+    margin-left: 0%;
+    margin-top: 10%;
+    width: 60%;
+}
+
+
+.Graph_main_div{
+	width:39%;
+	margin-top:4%;
+}
+
+.GraphSvg_div{
+	width:100%;
+	
+}
+.button_div{
+	width:20%;
+	bottom:-42px;
+	left:10px;
+}
+.Btn_td1{
+	padding-top:2px;
+}
+
+.buttonDivForDevice{
+	bottom:-15%;
+	left:9%;
+}
+.BtnDevice_td1{
+	width:34%;
+}
+
+.reset,.left,.right{
+    padding: 2px;
+    border-radius: 5px;
+	font-size:9px;
+	height:18px;
+}
+
+
+.done_btn{
+    padding: 2px;
+    border-radius: 5px;
+	height:18px;
+	
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:14px;
+}
+.txt{
+	font-size:34px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:24px;
+}
+
+.header{
+	position:relative;
+}
+.remark{
+	top:15%;
+	left:-40%;
+}
+.Mrgntop{
+	margin-top:1%;
+	margin-left:5%;
+	white-space:nowrap;
+}
+
+.Done_con{
+	bottom:-2%;
+}
+.radBtn1,.radBtn2{
+	width:.76em;
+	height:.76em;
+}
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:20%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:80%;
+}
+.padd_1{
+	padding-bottom:4%;
+}
+
+.Step1_1,.Step1_2,.Step1_3{
+	width:100%;
+	left:0%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:12px;
+}
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+
+}
+
+@media (min-width: 471px) and (max-width: 520px) and (orientation:portrait)
+{
+
+.clear {
+	margin-left: 5%;
+}
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 3px;
+	width:calc((100% - 3px));
+}
+
+.Wrng4,.Wrt4{
+	position:absolute;
+	left:0%;
+	top:15%;
+}
+.howTo_button{
+	padding:2px;
+	font-size:11px;
+	height:20px;
+}
+
+
+
+.howTo{
+	right:10%;
+}
+
+.howTo_list{
+	font-size:12px;
+}
+
+.Step1 {
+    margin-left: 0%;
+    margin-top: 10%;
+    width: 62%;
+}
+
+
+.Graph_main_div{
+	width:37%;
+	margin-top:4%;
+}
+
+.GraphSvg_div{
+	width:100%;
+	
+}
+.button_div{
+	width:20%;
+	bottom:-42px;
+	left:15px;
+}
+.Btn_td1{
+	padding-top:2px;
+}
+
+.buttonDivForDevice{
+	bottom:-15%;
+	left:9%;
+}
+.BtnDevice_td1{
+	width:34%;
+}
+
+.reset,.left,.right{
+    padding: 2px;
+    border-radius: 5px;
+	font-size:9px;
+	height:18px;
+}
+.done_btn{
+    padding: 3px;
+    border-radius: 5px;
+	height:18px;
+	
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:14px;
+}
+.txt{
+	font-size:34px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:24px;
+}
+
+.header{
+	position:relative;
+}
+
+.remark{
+	top:15%;
+	left:-42%;
+}
+
+.Mrgntop{
+	margin-top:1%;
+	margin-left:5%;
+	white-space:nowrap;
+}
+
+.Done_con{
+	bottom:-2%;
+}
+.radBtn1,.radBtn2{
+	width:.82em;
+	height:.82em;
+}
+
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:18%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:82%;
+}
+.padd_1{
+	padding-bottom:4%;
+}
+
+.Step1_1,.Step1_2,.Step1_3{
+	width:100%;
+	left:0%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:14px;
+}
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+
+}
+
+.Radio_Table tbody tr:first-child td {
+    background-color: antiquewhite;
+	color:crimson;
+}
+
+
+@media (min-width: 521px) and (max-width: 560px) and (orientation:portrait)
+{
+
+
+
+.clear {
+	margin-left: 5%;
+}
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 3px;
+	width:calc((100% - 3px));
+}
+
+.Wrng4,.Wrt4{
+	position:absolute;
+	left:0%;
+	top:15%;
+}
+.howTo_button{
+	padding:2px;
+	font-size:12px;
+	height:20px;
+}
+
+
+
+.howTo{
+	right:14%;
+}
+
+.howTo_list{
+	font-size:14px;
+}
+
+.Step1 {
+    margin-left: 0%;
+    margin-top: 9%;
+    width: 60.5%;
+}
+
+
+.Graph_main_div{
+	width:38%;
+	margin-top:4%;
+}
+
+.GraphSvg_div{
+	width:100%;
+	
+}
+.button_div{
+	width:20%;
+	bottom:-42px;
+	left:15px;
+}
+.Btn_td1{
+	padding-top:2px;
+}
+
+.buttonDivForDevice{
+	bottom:-12%;
+	left:10%;
+	width:60%;
+}
+.BtnDevice_tb1{
+	width:100%;
+}
+.BtnDevice_td1{
+	width:34%;
+}
+
+.reset,.left,.right{
+    padding: 3px;
+    border-radius: 5px;
+	font-size:9px;
+	height:20px;
+}
+.done_btn{
+    padding: 3px;
+    border-radius: 5px;
+	height:20px;
+	
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:14px;
+}
+.txt{
+	font-size:32px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:24px;
+}
+
+.header{
+	position:relative;
+}
+
+.remark{
+	top:15%;
+	left:-35%;
+}
+
+.Mrgntop{
+	margin-top:1%;
+	margin-left:5%;
+	white-space:nowrap;
+}
+
+.Done_con{
+	bottom:-2%;
+}
+.radBtn1,.radBtn2{
+	width:.88em;
+	height:.88em;
+}
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:18%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:82%;
+}
+.padd_1{
+	padding-bottom:4%;
+}
+
+.Step1_1,.Step1_2,.Step1_3{
+	width:100%;
+	left:0%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:14px;
+}
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+
+
+}
+
+
+@media (min-width: 561px) and (max-width: 640px) and (orientation:portrait)
+{
+
+
+.clear {
+	margin-left: 5%;
+}
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 3px;
+	width:calc((100% - 3px));
+}
+
+
+.Wrng4,.Wrt4{
+	position:absolute;
+	left:0%;
+	top:15%;
+}
+.howTo_button{
+	padding:2px;
+	font-size:12px;
+	height:20px;
+}
+
+
+
+.howTo{
+	right:15%;
+}
+
+.howTo_list{
+	font-size:14px;
+}
+
+.Step1 {
+    margin-left: 0%;
+    margin-top: 8%;
+    width: 60.5%;
+}
+
+
+.Graph_main_div{
+	width:38%;
+	margin-top:4%;
+}
+
+.GraphSvg_div{
+	width:100%;
+	
+}
+.button_div{
+	width:20%;
+	bottom:-42px;
+	left:15px;
+}
+.Btn_td1{
+	padding-top:2px;
+}
+
+.buttonDivForDevice{
+	bottom:-12%;
+	left:8%;
+	width:60%;
+}
+.BtnDevice_tb1{
+	width:100%;
+}
+.BtnDevice_td1{
+	width:33%;
+	padding-left:1%;
+}
+
+.reset,.left,.right{
+    padding: 3px;
+    border-radius: 5px;
+	font-size:9px;
+	height:20px;
+}
+.done_btn{
+    padding: 3px;
+    border-radius: 5px;
+	height:20px;
+	
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:14px;
+}
+.txt{
+	font-size:32px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:23px;
+}
+
+.header{
+	position:relative;
+}
+
+.remark{
+	top:15%;
+	left:-35%;
+}
+
+.Mrgntop{
+	margin-top:1%;
+	margin-left:5%;
+	white-space:nowrap;
+}
+
+.Done_con{
+	bottom:-2%;
+}
+.radBtn1,.radBtn2{
+	width:.95em;
+	height:.95em;
+}
+
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:18%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:82%;
+}
+.padd_1{
+	padding-bottom:4%;
+}
+
+.Step1_1,.Step1_2,.Step1_3{
+	width:100%;
+	left:0%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:15px;
+}
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+
+}
+
+
+@media (min-width:641px) and (max-width: 720px) and (orientation:portrait)
+{
+
+.clear {
+	margin-left: 5%;
+}
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 3px;
+	width:calc((100% - 3px));
+}
+
+.Wrng4,.Wrt4{
+	position:absolute;
+	left:0%;
+	top:15%;
+}
+.howTo_button{
+	padding:3px;
+	font-size:12px;
+	height:20px;
+}
+
+
+.howTo{
+	right:21%;
+}
+
+.howTo_list{
+	font-size:14px;
+}
+
+.Step1 {
+    margin-left: 0%;
+    margin-top: 11%;
+    width: 56%;
+}
+
+
+.Graph_main_div{
+	width:42%;
+	margin-top:4%;
+}
+
+.GraphSvg_div{
+	width:100%;
+	
+}
+.button_div{
+	width:20%;
+	bottom:-42px;
+	left:23px;
+}
+.Btn_td1{
+	padding-top:2px;
+}
+
+.buttonDivForDevice{
+	bottom:-10%;
+	left:8%;
+	width:60%;
+}
+.BtnDevice_tb1{
+	width:100%;
+}
+.BtnDevice_td1{
+	width:33%;
+	padding-left:1%;
+}
+
+.reset,.left,.right{
+    padding: 2px;
+    border-radius: 5px;
+	font-size:10px;
+	height:20px;
+}
+
+.done_btn{
+    padding: 3px;
+    border-radius: 5px;
+	height:20px;
+	font-size:10px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:15px;
+}
+.txt{
+	font-size:32px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:22px;
+}
+
+.header{
+	position:relative;
+}
+
+.remark{
+	top:15%;
+	left:-27%;
+}
+
+.Mrgntop{
+	margin-top:1%;
+	margin-left:5%;
+	white-space:nowrap;
+}
+
+.Done_con{
+	bottom:-2%;
+}
+.radBtn1,.radBtn2{
+	width:1em;
+	height:1em;
+}
+
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:16%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:84%;
+}
+.padd_1{
+	padding-bottom:4%;
+}
+
+.Step1_1,.Step1_2,.Step1_3{
+	width:100%;
+	left:0%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:15px;
+}
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+
+
+
+}
+
+
+@media (min-width: 721px) and (max-width: 800px) and (orientation:portrait)
+{
+
+
+.clear {
+	margin-left: 5%;
+}
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 3px;
+	width:calc((100% - 3px));
+}
+
+.Wrng4,.Wrt4{
+	position:absolute;
+	left:0%;
+	top:15%;
+}
+.howTo_button{
+	padding:3px;
+	font-size:14px;
+	height:22px;
+}
+
+.howTo_div{
+	top:0%;
+}
+
+.howTo{
+	right:20%;
+}
+
+.howTo_list{
+	font-size:17px;
+}
+
+.Step1 {
+    margin-left: 0%;
+    margin-top: 13%;
+    width: 56%;
+}
+
+.Graph_main_div{
+	width:42%;
+	margin-top:4%;
+}
+
+.GraphSvg_div{
+	width:100%;
+	
+}
+.button_div{
+	width:20%;
+	bottom:-50px;
+	left:25px;
+}
+.Btn_td1{
+	padding-top:2px;
+}
+
+.buttonDivForDevice{
+	bottom:-12%;
+	left:9%;
+	width:62%;
+}
+.BtnDevice_tb1{
+	width:100%;
+}
+.BtnDevice_td1{
+	width:33%;
+	padding-left:2%;
+}
+
+.reset,.left,.right{
+    padding: 4px;
+    border-radius: 5px;
+	font-size:14px;
+	height:28px;
+}
+.done_btn{
+    padding: 4px;
+    border-radius: 5px;
+	height:28px;
+	font-size:14px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:15px;
+}
+.txt{
+	font-size:32px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:24px;
+}
+
+.header{
+	position:relative;
+}
+
+.remark{
+	top:15%;
+	left:-28%;
+}
+
+.Mrgntop{
+	margin-top:1%;
+	margin-left:5%;
+	white-space:nowrap;
+}
+
+.Done_con{
+	bottom:-2%;
+}
+.radBtn1,.radBtn2{
+	width:1em;
+	height:1em;
+}
+
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:17%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:83%;
+}
+.padd_1{
+	padding-bottom:4%;
+}
+
+.Step1_1,.Step1_2,.Step1_3{
+	width:100%;
+	left:0%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:18px;
+}
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+
+
+
+}
+
+
+@media (min-width: 801px) and (max-width: 880px) and (orientation:portrait)
+{
+
+
+
+.clear {
+	margin-left: 5%;
+}
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 3px;
+	width:calc((100% - 3px));
+}
+
+.Wrng4,.Wrt4{
+	position:absolute;
+	left:0%;
+	top:15%;
+}
+.howTo_button{
+	padding:3px;
+	font-size:14px;
+	height:22px;
+}
+
+.howTo_div{
+	top:0%;
+}
+
+.howTo{
+	right:22%;
+}
+
+.howTo_list{
+	font-size:18px;
+}
+
+.Step1 {
+    margin-left: 0%;
+    margin-top: 13%;
+    width: 54.5%;
+}
+
+
+.Graph_main_div{
+	width:43%;
+	margin-top:4%;
+}
+
+.GraphSvg_div{
+	width:100%;
+	
+}
+.button_div{
+	width:20%;
+	bottom:-50px;
+	left:25px;
+}
+.Btn_td1{
+	padding-top:2px;
+}
+
+.buttonDivForDevice{
+	bottom:-10%;
+	left:8%;
+	width:62%;
+}
+.BtnDevice_tb1{
+	width:100%;
+}
+.BtnDevice_td1{
+	width:33%;
+	padding-left:2%;
+}
+
+.reset,.left,.right{
+    padding: 4px;
+    border-radius: 5px;
+	font-size:14px;
+	height:28px;
+}
+.done_btn{
+    padding: 4px;
+    border-radius: 5px;
+	height:28px;
+	font-size:14px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:15px;
+}
+.txt{
+	font-size:30px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:24px;
+}
+
+
+.header{
+	position:relative;
+}
+
+.remark{
+	top:0%;
+	left:-28%;
+}
+
+
+.Mrgntop{
+	margin-top:1%;
+	margin-left:5%;
+	white-space:nowrap;
+}
+
+.Done_con{
+	bottom:-2%;
+}
+.Radio_Table td {
+    padding-top: 5px;
+}
+.radBtn1,.radBtn2{
+	width:1.2em;
+	height:1.2em;
+}
+
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:17%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:83%;
+}
+.padd_1{
+	padding-bottom:4%;
+}
+
+.Step1_1,.Step1_2,.Step1_3{
+	width:100%;
+	left:0%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:19px;
+}
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+
+}
+
+
+@media (min-width: 881px) and (max-width: 960px) and (orientation:portrait)
+{
+
+
+.clear {
+	margin-left: 5%;
+}
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 3px;
+	width:calc((100% - 3px));
+}
+.Mrgntop{
+	margin-top:1%;
+	margin-left:0%;
+}
+.Wrng4,.Wrt4{
+	position:absolute;
+	left:0%;
+	top:15%;
+}
+.howTo_button{
+	padding:3px;
+	font-size:16px;
+	height:25px;
+}
+
+.howTo_div{
+	top:0%;
+}
+
+.howTo{
+	right:23%;
+}
+
+.howTo_list{
+	font-size:18px;
+}
+
+.Step1 {
+    margin-left: 2%;
+    margin-top: 16%;
+    width: 54.5%;
+}
+
+
+.Graph_main_div{
+	width:43%;
+	margin-top:4%;
+}
+
+.GraphSvg_div{
+	width:100%;
+	
+}
+.button_div{
+	width:18%;
+	bottom:-50px;
+	left:32px;
+}
+.Btn_td1{
+	padding-top:3px;
+}
+
+.buttonDivForDevice{
+	bottom:-8%;
+	left:8%;
+	width:62%;
+}
+.BtnDevice_tb1{
+	width:100%;
+}
+.BtnDevice_td1{
+	width:33%;
+	padding-left:2%;
+}
+
+.reset,.left,.right{
+    padding: 4px;
+    border-radius: 5px;
+	font-size:14px;
+	height:28px;
+}
+.done_btn{
+    padding: 4px;
+    border-radius: 5px;
+	height:28px;
+	font-size:14px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:15px;
+}
+.txt{
+	font-size:30px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:22px;
+}
+
+
+.header{
+	position:relative;
+	min-height:130px;
+}
+
+.remark{
+	top:10%;
+	left:-22%;
+}
+
+.Mrgntop{
+	margin-top:1%;
+	margin-left:5%;
+	white-space:nowrap;
+}
+
+.Done_con{
+	bottom:-2%;
+}
+.Radio_Table td {
+    padding-top: 5px;
+}
+.radBtn1,.radBtn2{
+	width:1.2em;
+	height:1.2em;
+}
+
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:17%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:83%;
+}
+.padd_1{
+	padding-bottom:4%;
+}
+
+.Step1_1,.Step1_2,.Step1_3{
+	width:100%;
+	left:0%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:19px;
+}
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+}
+
+@media (min-width: 961px) and (max-width: 1040px) and (orientation:portrait)
+{
+
+
+.clear {
+	margin-left: 5%;
+}
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 3px;
+	width:calc((100% - 3px));
+}
+.Mrgntop{
+	margin-top:1%;
+	margin-left:0%;
+}
+.Wrng4,.Wrt4{
+	position:absolute;
+	left:0%;
+	top:15%;
+}
+.howTo_button{
+	padding:5px;
+	font-size:17px;
+	height:30px;
+}
+
+.howTo_div{
+	top:0%;
+}
+
+.howTo{
+	right:24%;
+}
+
+.howTo_list{
+	font-size:20px;
+}
+
+.Step1 {
+    margin-left: 1%;
+    margin-top: 15%;
+    width: 53%;
+}
+
+
+.Graph_main_div{
+	width:46%;
+	margin-top:4%;
+}
+
+.GraphSvg_div{
+	width:100%;
+	
+}
+.button_div{
+	width:17%;
+	bottom:-65px;
+	left:44px;
+}
+.Btn_td1{
+	padding-top:5px;
+}
+
+.buttonDivForDevice{
+	bottom:-8%;
+	left:8%;
+	width:62%;
+}
+.BtnDevice_tb1{
+	width:100%;
+}
+.BtnDevice_td1{
+	width:33%;
+	padding-left:2%;
+}
+
+.reset,.left,.right{
+    padding: 4px;
+    border-radius: 5px;
+	font-size:18px;
+	height:34px;
+}
+.done_btn{
+    padding: 4px;
+    border-radius: 5px;
+	height:34px;
+	font-size:18px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:15px;
+}
+.txt{
+	font-size:30px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:22px;
+}
+
+
+.header{
+	min-height:140px;
+	position:relative;
+}
+
+.remark {
+    top: 13%;
+    left: -20%;
+}
+
+.Mrgntop{
+	margin-top:1%;
+	margin-left:5%;
+	white-space:nowrap;
+}
+
+.Done_con{
+	bottom:-2%;
+}
+.Radio_Table td {
+    padding-top: 5px;
+}
+.radBtn1,.radBtn2{
+	width:1.3em;
+	height:1.3em;
+}
+
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:15.5%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:84.5%;
+}
+.padd_1{
+	padding-bottom:4%;
+}
+
+.Step1_1,.Step1_2,.Step1_3{
+	width:100%;
+	left:0%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:22px;
+}
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+}
+
+@media (min-width: 1041px)  and (orientation:portrait)
+{
+
+
+.clear {
+	margin-left: 5%;
+}
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 10px;
+	width:calc((100% - 10px));
+}
+.Mrgntop{
+	margin-top:1%;
+	margin-left:0%;
+}
+.Wrng4,.Wrt4{
+	position:absolute;
+	left:0%;
+	top:15%;
+}
+.howTo_button{
+	padding:5px;
+	font-size:18px;
+	height:30px;
+}
+
+.howTo_div{
+	top:0%;
+}
+
+.howTo{
+	right:25%;
+}
+
+.howTo_list{
+	font-size:20px;
+}
+
+.Step1 {
+    margin-left: 3%;
+    margin-top: 15%;
+    width: 50%;
+}
+
+
+.Graph_main_div{
+	width:47%;
+	margin-top:4%;
+}
+
+.GraphSvg_div{
+	width:100%;
+	
+}
+.button_div{
+	width:17%;
+	bottom:-70px;
+	left:45px;
+}
+.Btn_td1{
+	padding-top:5px;
+}
+
+.buttonDivForDevice{
+	bottom:-8%;
+	left:8%;
+	width:62%;
+}
+.BtnDevice_tb1{
+	width:100%;
+}
+.BtnDevice_td1{
+	width:33%;
+	padding-left:2%;
+}
+
+.reset,.left,.right{
+    padding: 4px;
+    border-radius: 5px;
+	font-size:20px;
+	height:38px;
+}
+.done_btn{
+    padding: 4px;
+    border-radius: 5px;
+	height:38px;
+	font-size:20px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:15px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3,.txt4,.txt5,.txt6,.txt7,.txt8,.txt9,.txt10,.txt11,.txt12,.poly_txt1,.poly_txt2,.poly_txt3,.poly_txt4{
+	font-size:20px;
+}
+
+
+
+.header{
+	min-height:165px;
+	position:relative;
+}
+
+.remark {
+    top: 11%;
+    left: -20%;
+}
+
+
+.Mrgntop{
+	margin-top:2%;
+	margin-left:0%;
+	white-space:nowrap;
+}
+
+
+
+.Mrgntop{
+	margin-top:1%;
+	margin-left:5%;
+	white-space:nowrap;
+}
+
+.Done_con{
+	bottom:-2%;
+}
+.Radio_Table td {
+    padding-top: 5px;
+}
+.radBtn1,.radBtn2{
+	width:1.3em;
+	height:1.3em;
+}
+
+
+.tb1{
+	width:100%;
+}
+.tb1_td1{
+	width:15.5%;
+	vertical-align:top;
+}
+.tb1_td2{
+	width:84.5%;
+}
+.padd_1{
+	padding-bottom:4%;
+}
+
+.Step1_1,.Step1_2,.Step1_3{
+	width:100%;
+	left:0%;
+}
+.Step1_1,.Step1_2,.Step1_3{
+	font-size:22px;
+}
+.tb3{
+	width:25%;
+	margin-left:30%;
+}
+
+
+}
+
+/*----- 27 -------*/
+
+
+
+.howTo_button{
+	background:#09F;
+	box-shadow:none;
+	color:white;
+}
+
+.howTo_button:hover{
+	color:#AFF;
+	box-shadow:1px 1px 1px #09F;
+}
+.reset{
+	background:#008CBA;
+	box-shadow:none;
+	color:white;
+}
+.reset:hover{
+	color:#AFF;
+	box-shadow:1px 1px 1px #09F;
+}
+
+
+.fraction span.fdn1 {border-top: thin solid #00C;}
+
+.tb1_td1{
+	white-space:nowrap;
+}
+
+ul li {
+    list-style-position: outside;
+    margin-left: 1em;	
+	margin-top:0.15em;
+}
+
+.final_line,.final_line2,.final_line3,.final_line4,.crcle1,.crcle2,.crcle3,.crcle4,.crcle5,.crcle6,.crcle7,.crcle8{
+	display:none;
+}
+
+.final_line5,.final_line6,.final_line7,.final_line8,.crcle7,.crcle8,.crcle9,.crcle10,.crcle11,.crcle12{
+	display:none;
+}
+
+.poly_crcle1,.poly_crcle2,.poly_crcle3,.poly_crcle4
+{
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes blink { 
+   50% { border-color: #ff0000;
+   		 border-width: 0.13em;
+		 box-shadow: 0.1em 0.1em 0.2em grey;} 
+}
+.blink_class{ /*or other element you want*/
+    animation-name: blink ;
+    animation-duration: .5s ;
+    animation-timing-function: step-end ;
+    animation-iteration-count: infinite ;
+    animation-direction: alternate ;
+}
+
+
+@keyframes input_blink { 
+   50% { border-color: #ff0000;} 
+}
+.input_blink_class{ /*or other element you want*/
+    animation-name: input_blink ;
+    animation-duration: .5s ;
+    animation-timing-function: step-end ;
+    animation-iteration-count: infinite ;
+    animation-direction: alternate ;
+}
+
+
+.Step1_3_Cross{
+	width:1.2em;
+	float:right;
+	cursor:pointer;
+	margin-bottom:-4%;
+}
